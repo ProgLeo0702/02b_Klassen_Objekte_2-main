@@ -23,7 +23,7 @@ public class App {
 
         output("-----------------------");
 
-        Cat cat = new Cat("Alonzo", "grey", 35);
+        Cat cat2 = new Cat("Alonzo", "grey", 35);
         // output("Blick von aussen: " + cat2);
         // output("Blick von innen: " + cat2.getInstanceVariable());
 
