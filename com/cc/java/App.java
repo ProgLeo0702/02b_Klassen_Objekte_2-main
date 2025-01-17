@@ -4,7 +4,9 @@ public class App {
     
     public static void main(String[] args) {
 
-        Cat cat = new Cat();
+
+        // Instanziierung + Wertzuweisung
+        Cat cat = new Cat("Grizabella", "white", 29);
         // output("Blick von aussen: " + cat);
         // output("Blick von innen: " + cat.getInstanceVariable());
 
@@ -21,7 +23,7 @@ public class App {
 
         output("-----------------------");
 
-        Cat cat2 = new Cat();
+        Cat cat = new Cat("Alonzo", "grey", 35);
         // output("Blick von aussen: " + cat2);
         // output("Blick von innen: " + cat2.getInstanceVariable());
 

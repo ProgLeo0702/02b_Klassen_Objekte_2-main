@@ -12,6 +12,18 @@ public class Cat {
 
 
 
+    public Cat(String firstName, String furColor, int age) {
+        this.firstName = firstName;
+        this.furColor = furColor;
+        this.age = age;
+    }
+
+
+
+
+
+
+
     public Cat getInstanceVariable(){
        return this;
     }
